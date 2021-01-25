@@ -1,6 +1,11 @@
-import styled from 'styled-components'
+import styled, { StyledComponentBase } from 'styled-components'
 
-const Widget = styled.div`
+interface WidgetProps extends StyledComponentBase<any, {}> {
+  Content?: any;
+  Header?: any;
+}
+
+const Widget: WidgetProps = styled.div`
   margin-top: 24px;
   margin-bottom: 24px;
   border: 1px solid ${({ theme }) => theme.colors.primary};
@@ -18,7 +23,6 @@ const Widget = styled.div`
   p {
     font-size: 14px;
     font-weight: 400;
-    line-height: 1;
   }
 `;
 
