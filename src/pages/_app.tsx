@@ -38,6 +38,8 @@ export default function App({ Component, pageProps }: AppProps) {
       <Head>
         <link rel="shortcut icon" href="https://cdn.auth0.com/blog/react-js/react.png" />
         <link rel="apple-touch-icon" href="https://cdn.auth0.com/blog/react-js/react.png" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
       </Head>
       <NextSeo
         title="React Quiz"
@@ -45,6 +47,7 @@ export default function App({ Component, pageProps }: AppProps) {
         canonical="https://reactquiz.vercel.app"
       />
         <GlobalStyle />
+        {/* // eslint-disable-next-line react/prop-types */}
         <Component {...pageProps} />
       </ThemeProvider>
     </>

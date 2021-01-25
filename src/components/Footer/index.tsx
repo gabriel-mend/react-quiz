@@ -24,10 +24,9 @@ const FooterWrapper = styled.footer`
   }
 `;
 
-type Props = {
+// type Props = {
   
-}
-
+// }
 
 export default function Footer(props) {
   return (
