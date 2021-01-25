@@ -1,34 +1,60 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">React Quiz</h1>
 
-## Getting Started
+<h2 align="center">😎 Teste os seus conhecimentos sobre React e vamos ver quantas aplicações você vai deixar de quebrar!</h2>
+<img src="https://user-images.githubusercontent.com/49095200/105786223-6b317c80-5f5b-11eb-8d63-84e77b82333a.png" />
 
-First, run the development server:
+<h4 align="center"> 
+	🚧 👷  Em construção...  🚧
+</h4>
+
+## 💬 Sobre o projeto
+React Quiz - É um projeto feito para testar seus conhecimentos no ecossistema do react, e desafiar seus amigos
+
+Projeto desenvolvido durante a **IMERSÃO REACT NEXT.JS** oferecida pela [Alura](https://www.alura.com.br).
+
+## Tecnologias utilizadas
+* [Reactjs](https://pt-br.reactjs.org)
+* [Nextjs](https://nextjs.org)
+* [Typescript](https://www.typescriptlang.org/)
+* [Nodejs](https://nodejs.org/en/)
+* [Styled Components](https://styled-components.com/)
+
+## 🚀 Como executar o projeto
+
+- Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas: [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
+- Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/).
+- Instale **[Yarn](https://yarnpkg.com/)** para ter uma melhor experiência quando for executar a aplicação.
+
+### :octocat: Faça o clone do projeto
 
 ```bash
-npm run dev
-# or
-yarn dev
+# Clone este repositório
+$ git clone <https://github.com/loadingGabriel/react-quiz>
+
+# Acesse a pasta do projeto no terminal/cmd
+$ cd react-quiz
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+### 💻 Rodando a aplicação web
+```bash
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+# Instale as dependências
+$ yarn install
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+# Execute a aplicação 
+$ yarn dev
 
-## Learn More
+# O aplicação inciará (geralmente) na porta:3000 - acesse <http://localhost:3000>
+```
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 👨🏻‍🚀 Sobre mim
+<a href="https://www.linkedin.com/in/gabriel-mendonca-pereira/">
+ <img style="border-radius:50%" width="100px; "src="https://avatars0.githubusercontent.com/u/49095200?s=460&u=27a77c43fff5eab61be02a3fedfd7db554145981&v=4"/>
+ <p>Gabriel Mendonça Pereira</p>
+</a>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 💙  Agradecimentos
+Obrigado [Alura](https://www.alura.com.br) por disponibilizar esse conteúdo de maneira acessível a todos🚀.
