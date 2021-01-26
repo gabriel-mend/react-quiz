@@ -1,7 +1,7 @@
 <h1 align="center">React Quiz</h1>
 
 <h2 align="center">😎 Teste os seus conhecimentos sobre React e vamos ver quantas aplicações você vai deixar de quebrar!</h2>
-<img src="" />
+<img src="https://user-images.githubusercontent.com/49095200/105786223-6b317c80-5f5b-11eb-8d63-84e77b82333a.png" />
 
 <h4 align="center"> 
 	🚧 👷  Em construção...  🚧
