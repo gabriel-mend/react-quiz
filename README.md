@@ -1,6 +1,6 @@
 <h1 align="center">React Quiz</h1>
 
-<h2 align="center">Teste os seus conhecimentos sobre React e vamos ver quantas aplicações você vai deixar de quebrar!</h2>
+<h2 align="center">😎 Teste os seus conhecimentos sobre React e vamos ver quantas aplicações você vai deixar de quebrar!</h2>
 <img src="" />
 
 <h4 align="center"> 
@@ -55,5 +55,5 @@ $ yarn dev
  <p>Gabriel Mendonça Pereira</p>
 </a>
 
-## 💜  Agradecimentos
+## 💙  Agradecimentos
 Obrigado [Alura](https://www.alura.com.br) por disponibilizar esse conteúdo de maneira acessível a todos🚀.
