@@ -13,9 +13,10 @@ React Quiz - É um projeto feito para testar seus conhecimentos no ecossistema d
 Projeto desenvolvido durante a **IMERSÃO REACT NEXT.JS** oferecida pela [Alura](https://www.alura.com.br).
 
 ## Tecnologias utilizadas
-* [React JS](https://pt-br.reactjs.org)
+* [Reactjs](https://pt-br.reactjs.org)
+* [Nextjs](https://nextjs.org)
 * [Typescript](https://www.typescriptlang.org/)
-* [Node.js](https://nodejs.org/en/)
+* [Nodejs](https://nodejs.org/en/)
 * [Styled Components](https://styled-components.com/)
 
 ## 🚀 Como executar o projeto
