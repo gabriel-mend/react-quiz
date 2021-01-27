@@ -3,6 +3,8 @@ import styled, { StyledComponentBase } from 'styled-components'
 interface WidgetProps extends StyledComponentBase<any, {}> {
   Content?: any;
   Header?: any;
+  Banner?: any;
+  Topic?: any;
 }
 
 const Widget: WidgetProps = styled.div`
@@ -38,6 +40,12 @@ Widget.Header = styled.header`
   }
 `;
 
+Widget.Banner = styled.img`
+  object-fit: cover;
+  width: 100%;
+  height: 150px;
+`; 
+
 Widget.Content = styled.div`
   display: flex;
   flex-direction: column;
@@ -51,42 +59,6 @@ Widget.Content = styled.div`
   & ul {
     list-style: none;
     padding: 0;
-  }
-
-  & input {
-    height: 40px;
-    width: 100%;
-    padding: 0 15px;
-    margin: 16px 0;
-    color: ${({ theme }) => theme.colors.contrastText};
-    font-size: 14px;
-    letter-spacing: 0.15px;
-    border: 2px solid ${({ theme }) => theme.colors.primary};
-    border-radius: 4px;
-    background-color: ${({ theme }) => theme.colors.mainBg};
-    outline: none;
-    transition: .35s;
-  }
-
-  & input:focus {
-    border-color: ${({ theme }) => theme.colors.inputFocus};
-  }
-  
-  & button {
-    height: 40px;
-    width: 100%;
-    color: ${({ theme }) => theme.colors.contrastText};
-    border: none;
-    font-size: 14px;
-    letter-spacing: 0.15px;
-    border-radius: 4px;
-    background-color: ${({ theme }) => theme.colors.secondary};
-    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
-    cursor: pointer;
-    transition: .35s;
-  }
-  & button:hover {
-    background-color: ${({ theme }) => theme.colors.buttonHover};
   }
 
   & a {
@@ -107,5 +79,25 @@ Widget.Content = styled.div`
     background-color: ${({ theme }) => theme.colors.primary};
   }
 `;
+
+Widget.Topic = styled.a`
+  outline: 0;
+  text-decoration: none;
+  color: ${({ theme }) => theme.colors.contrastText};
+  background-color: ${({ theme }) => `${theme.colors.primary}40`};
+  padding: 10px 15px;
+  margin-bottom: 8px;
+  cursor: pointer;
+  border-radius: ${({ theme }) => theme.borderRadius};
+  transition: .3s;
+  display: block;
+  
+  &:hover,
+  &:focus {
+    background-color: ${({ theme }) => `${theme.colors.primary}`};
+  }
+`;
+
+
 
 export default Widget
