@@ -1,7 +1,7 @@
 <h1 align="center">React Quiz</h1>
 
 <h2 align="center">😎 Teste os seus conhecimentos sobre React e vamos ver quantas aplicações você vai deixar de quebrar!</h2>
-<img src="https://user-images.githubusercontent.com/49095200/105786223-6b317c80-5f5b-11eb-8d63-84e77b82333a.png" />
+<img src="https://user-images.githubusercontent.com/49095200/105904229-a2f20000-5fff-11eb-9bdb-8cf28bd3432e.png" />
 
 <h4 align="center"> 
 	🚧 👷  Em construção...  🚧
@@ -18,6 +18,7 @@ Projeto desenvolvido durante a **IMERSÃO REACT NEXT.JS** oferecida pela [Alura]
 * [Typescript](https://www.typescriptlang.org/)
 * [Nodejs](https://nodejs.org/en/)
 * [Styled Components](https://styled-components.com/)
+* [ESlint](https://eslint.org)
 
 ## 🚀 Como executar o projeto
 
