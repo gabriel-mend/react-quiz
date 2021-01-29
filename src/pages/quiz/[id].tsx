@@ -1,6 +1,8 @@
-import QuizScreen from "../../screens/Quiz"
+import QuizScreen from "../../components/screens/Quiz"
 import { ThemeProvider } from 'styled-components'
-export default function QuizDaGaleraPage({ db }) {
+import { dbProps } from "../../types"
+
+export default function QuizDaGaleraPage({ db }: dbProps) {
     return (
         <ThemeProvider theme={db.theme}>
             <QuizScreen data={db} />

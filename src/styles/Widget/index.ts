@@ -5,6 +5,7 @@ interface WidgetProps extends StyledComponentBase<any, {}> {
   Header?: any;
   Banner?: any;
   Topic?: any;
+  Result?: any;
 }
 
 const Widget: WidgetProps = styled.div`
@@ -50,6 +51,7 @@ Widget.Content = styled.div`
   display: flex;
   flex-direction: column;
   padding: 24px 32px 32px 32px;
+  position: relative;
   & > *:first-child {
     margin-top: 0;
   }
@@ -62,12 +64,12 @@ Widget.Content = styled.div`
   }
 
   & a {
-    height: 40px;
+    min-height: 40px;
     width: 100%;
     margin-bottom: 8px;
     display: flex;
     align-items: center;
-    padding: 0 15px;
+    padding: 4px 15px;
     color: ${({ theme }) => theme.colors.contrastText};
     background: rgba(33, 150, 243, 0.35);
     text-decoration: none;
@@ -77,6 +79,13 @@ Widget.Content = styled.div`
 
   & a:hover {
     background-color: ${({ theme }) => theme.colors.primary};
+  }
+
+  & .icon {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 20px;
   }
 `;
 
@@ -96,6 +105,17 @@ Widget.Topic = styled.a`
   &:focus {
     background-color: ${({ theme }) => `${theme.colors.primary}`};
   }
+`;
+
+Widget.Result = styled.li`
+  height: 40px;
+  width: 100%;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+  color: ${({ theme }) => theme.colors.contrastText};
+  border-radius: 4px;
 `;
 
 

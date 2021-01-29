@@ -1,33 +1,10 @@
 import { NextSeo } from 'next-seo'
 import type { AppProps } from 'next/app'
 import Head from 'next/head'
-
-import { createGlobalStyle, ThemeProvider } from 'styled-components'
+import { ThemeProvider } from 'styled-components'
 
 import db from '../../db.json'
-
-const GlobalStyle = createGlobalStyle`
-  * {
-    box-sizing: border-box;
-  }
-  body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    font-family: 'Lato', sans-serif;
-    color: ${({ theme }: any) => theme.colors.contrastText};
-  }
-  html, body {
-    min-height: 100vh;
-  }
-  #__next {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-  }
-`
+import { GlobalStyle } from '../styles/global'
 
 const theme = db.theme;
 
@@ -47,7 +24,6 @@ export default function App({ Component, pageProps }: AppProps) {
         canonical="https://reactquiz.vercel.app"
       />
         <GlobalStyle />
-        {/* // eslint-disable-next-line react/prop-types */}
         <Component {...pageProps} />
       </ThemeProvider>
     </>

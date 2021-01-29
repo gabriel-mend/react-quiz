@@ -5,29 +5,51 @@
     "questions": [
       {
         "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-        "title": "Como fazer um seletor por id via CSS?",
+        "title": "O react é o que? um(a) ...",
         "description": "Essa é pra aquecer",
-        "answer": 2,
+        "answer": 1,
         "alternatives": [
-          ".elemento",
-          "*elemento",
-          "#elemento",
-          "%elemento"
+          "Framework",
+          "Biblioteca",
+          "Linguagem",
+          "Componente"
         ]
       },
       {
         "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-        "title": "Como fazer um background gradiente com css?",
+        "title": "O react se destaca em qual área?",
+        "description": "Faz tempo em haha",
+        "answer": 1,
+        "alternatives": [
+           "Backend",
+           "Frontend"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
+        "title": "O react precisa de que para retornar a sintaxe html?",
         "description": "Faz tempo em haha",
         "answer": 0,
         "alternatives": [
-           "background: linear-gradient(#e66465, #9198e5);",
-           "background: gradient(#e66465, #9198e5);"
+           "Babel",
+           "Python",
+           "Ruby",
+           "JSX"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
+        "title": "Qual a maneira correta de escrever um useEffect?",
+        "description": "Faz tempo em haha",
+        "answer": 2,
+        "alternatives": [
+           "const useEffect = function(){},[]",
+           "useEffect(funcion() {})",
+           "useEffect(() => {}, [])"
         ]
       }
     ],
     "external": [
-      "https://aluraquiz-base-git-main.alura-challenges.vercel.app",
       "https://aluraquiz-base-git-main.alura-challenges.vercel.app"
     ],
     "theme": {
