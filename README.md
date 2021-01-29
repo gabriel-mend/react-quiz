@@ -3,9 +3,6 @@
 <h2 align="center">😎 Teste os seus conhecimentos sobre React e vamos ver quantas aplicações você vai deixar de quebrar!</h2>
 <img src="https://user-images.githubusercontent.com/49095200/105904229-a2f20000-5fff-11eb-9bdb-8cf28bd3432e.png" />
 
-<h4 align="center"> 
-	🚧 👷  Em construção...  🚧
-</h4>
 
 ## 💬 Sobre o projeto
 React Quiz - É um projeto feito para testar seus conhecimentos no ecossistema do react, e desafiar seus amigos
